@@ -75,12 +75,43 @@ const isCharAVowel = (char) => {
         return true
     } else {
         return false
-}
+    }
 }
 
 
 // Test your function
-console.log('Exercise 6 Result:', isCharAVowel("a")) // true
-console.log('Exercise 6 Result:', isCharAVowel("e")) // true
-console.log('Exercise 6 Result:', isCharAVowel("b")) // false
-console.log('Exercise 6 Result:', isCharAVowel("y")) // false
+// console.log('Exercise 6 Result:', isCharAVowel("a")) // true
+// console.log('Exercise 6 Result:', isCharAVowel("e")) // true
+// console.log('Exercise 6 Result:', isCharAVowel("b")) // false
+// console.log('Exercise 6 Result:', isCharAVowel("y")) // false
+
+//Excercise 7
+// Write your function here
+const maxOfThree = (x,y,z) => {
+    if (x >=y && x>=z) {
+        return x
+    } else if (y>=x && y>=z){
+        return y    
+    }
+    else {
+        return z
+    }
+}
+
+// Test your function
+// console.log('Exercise 7 Result:', maxOfThree(5, 10, 8)) // 10
+// console.log('Exercise 7 Result:', maxOfThree(20, 5, 10)) // 20
+// console.log('Exercise 7 Result:', maxOfThree(3, 7, 15)) // 15
+// console.log('Exercise 7 Result:', maxOfThree(8, 8, 4)) // 8
+
+//Excercise 8
+// Write your function here
+
+
+
+// Test your function
+console.log('Exercise 8 Result:', convertTemperature(0, "C")) // 32
+console.log('Exercise 8 Result:', convertTemperature(32, "C")) // 89.6
+console.log('Exercise 8 Result:', convertTemperature(32, "F")) // 0
+console.log('Exercise 8 Result:', convertTemperature(212, "F")) // 100
+
