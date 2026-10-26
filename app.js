@@ -106,7 +106,13 @@ const maxOfThree = (x,y,z) => {
 
 //Excercise 8
 // Write your function here
-
+const convertTemperature = (temperature,scale) => {
+    if (scale==='C') {
+        return (temperature * 9 / 5) + 32   
+    }else {
+        return (temperature - 32) * 5 / 9
+    }
+}
 
 
 // Test your function
