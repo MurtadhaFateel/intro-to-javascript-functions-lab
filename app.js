@@ -68,3 +68,19 @@ const maxOfTwoNumbers = (numM, numF) => {
 // console.log('Exercise 5 Result:', maxOfTwoNumbers(15, 4)) // 15
 // console.log('Exercise 5 Result:', maxOfTwoNumbers(7, 7)) // 7
 
+//Excercise 6
+// Write your function here
+const isCharAVowel = (char) => {
+    if (char==='a' || char==='e' || char==='i' || char==='o' || char==='u') {
+        return true
+    } else {
+        return false
+}
+}
+
+
+// Test your function
+console.log('Exercise 6 Result:', isCharAVowel("a")) // true
+console.log('Exercise 6 Result:', isCharAVowel("e")) // true
+console.log('Exercise 6 Result:', isCharAVowel("b")) // false
+console.log('Exercise 6 Result:', isCharAVowel("y")) // false
