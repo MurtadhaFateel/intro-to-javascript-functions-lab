@@ -116,8 +116,31 @@ const convertTemperature = (temperature,scale) => {
 
 
 // Test your function
-console.log('Exercise 8 Result:', convertTemperature(0, "C")) // 32
-console.log('Exercise 8 Result:', convertTemperature(32, "C")) // 89.6
-console.log('Exercise 8 Result:', convertTemperature(32, "F")) // 0
-console.log('Exercise 8 Result:', convertTemperature(212, "F")) // 100
+// console.log('Exercise 8 Result:', convertTemperature(0, "C")) // 32
+// console.log('Exercise 8 Result:', convertTemperature(32, "C")) // 89.6
+// console.log('Exercise 8 Result:', convertTemperature(32, "F")) // 0
+// console.log('Exercise 8 Result:', convertTemperature(212, "F")) // 100
+
+//Excercise 8
+// Write your function here
+const basicCalculator = (numA,numB,operation) => {
+    if (operation==='add') {
+        return numA+numB
+        
+    } else if (operation==='subtract') {
+        return numA-numB
+    }
+    else if (operation==='multiply') {
+        return numA*numB
+    } else {
+        return numA/numB 
+    }
+
+}
+
+// Test your function
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "add")) // 15
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract")) // 5
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "multiply")) // 50
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "divide")) // 2
 
