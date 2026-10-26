@@ -13,7 +13,7 @@ function generateEmail(username, domain) {
 function greetUser (name,timeOfDay) {
     return `Good ${timeOfDay}, ${name}!`
 }
-
+//coment
 // Test your function
 console.log('Exercise 2 Result:', greetUser("Sara", "morning")) // Good morning, Sara!
 console.log('Exercise 2 Result:', greetUser("Ali", "afternoon")) // Good afternoon, Ali!
