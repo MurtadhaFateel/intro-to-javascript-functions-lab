@@ -15,6 +15,56 @@ function greetUser (name,timeOfDay) {
 }
 //coment
 // Test your function
-console.log('Exercise 2 Result:', greetUser("Sara", "morning")) // Good morning, Sara!
-console.log('Exercise 2 Result:', greetUser("Ali", "afternoon")) // Good afternoon, Ali!
-console.log('Exercise 2 Result:', greetUser("Fatima", "evening")) // Good evening, Fatima!
+// console.log('Exercise 2 Result:', greetUser("Sara", "morning")) // Good morning, Sara!
+// console.log('Exercise 2 Result:', greetUser("Ali", "afternoon")) // Good afternoon, Ali!
+// console.log('Exercise 2 Result:', greetUser("Fatima", "evening")) // Good evening, Fatima!
+
+//Excercise 3
+// Write your function here
+const calculateVAT = (a,b) => {
+    return (a*(b/100))
+}
+
+// // Test your function
+// console.log('Exercise 3 Result:', calculateVAT(50, 10)) // 5
+// console.log('Exercise 3 Result:', calculateVAT(100, 10)) // 10
+// console.log('Exercise 3 Result:', calculateVAT(200, 5)) // 10
+
+//Excercise 4
+// Write your function here
+const checkStock = (quantity) => {
+    if (quantity>0){
+        return 'In Stock'
+
+    }else if(quantity===0) {
+        return 'Out of Stock'
+    }
+    else {
+        return 'Out of Stock'
+    }
+}
+
+// // Test your function
+// console.log('Exercise 4 Result:', checkStock(10)) // In stock
+// console.log('Exercise 4 Result:', checkStock(0))  // Out of stock
+// console.log('Exercise 4 Result:', checkStock(1))  // In stock
+
+//Excercise 5
+// Write your function here
+const maxOfTwoNumbers = (numM, numF) => {
+    if (numF > numM) {
+        return numF 
+    } else if (numM>numF) {
+        return numM
+    } else {
+        numM=numF
+        return numF
+    }
+}
+
+
+// // Test your function
+// console.log('Exercise 5 Result:', maxOfTwoNumbers(3, 9)) // 9
+// console.log('Exercise 5 Result:', maxOfTwoNumbers(15, 4)) // 15
+// console.log('Exercise 5 Result:', maxOfTwoNumbers(7, 7)) // 7
+
